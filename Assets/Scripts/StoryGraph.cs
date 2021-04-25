@@ -82,7 +82,8 @@ public class StoryGraph : MonoBehaviour
         updatedNodeBehaviour.visited = true;
         Vector3 curPos = updatedNode.transform.position;
         
-        List<int> nodeIds = nodeConnections[updatedNodeBehaviour.info.id];
+        List<int> nodeIds = nodeConnections.ContainsKey(updatedNodeBehaviour.info.id) ?
+            nodeConnections[updatedNodeBehaviour.info.id] : new List<int>();
         float[] nodePosY = GetNodePositionsY(curPos.y, nodeIds.Count);
         
         for (int i = 0; i < nodeIds.Count; i++)
