@@ -8,18 +8,8 @@ public class NodeBehaviour : MonoBehaviour
     [HideInInspector] public bool visited = false;
     [HideInInspector] public StoryGraph graph;
 
-    void Start()
-    {
-        gameObject.SetActive(false);
-    }
-
     private void OnMouseDown()
     {
-        graph.UpdateState(this);
-    }
-
-    public void MarkActive()
-    {
-        gameObject.SetActive(true);
+        graph.UpdateState(gameObject);
     }
 }

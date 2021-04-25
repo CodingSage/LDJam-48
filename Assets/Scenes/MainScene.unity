@@ -576,3 +576,5 @@ MonoBehaviour:
     type: 3}
   nodeInfosText: {fileID: 4900000, guid: 2f951269fde2c2541a657990896c1f70, type: 3}
   nodeConnectionsText: {fileID: 4900000, guid: 96ba2e0a8d8b96842a3df7353d38df18, type: 3}
+  nodeDistanceX: 4
+  nodeDistanceY: 2

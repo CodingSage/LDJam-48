@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9055273830500132531}
   - component: {fileID: 9055273830500132530}
   - component: {fileID: 9055273830500132532}
+  - component: {fileID: 8001280147574976274}
   m_Layer: 9
   m_Name: StoryNode
   m_TagString: Untagged
@@ -100,3 +101,19 @@ MonoBehaviour:
     soundTrackName: 
   visited: 0
   graph: {fileID: 0}
+--- !u!58 &8001280147574976274
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9055273830500132529}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1
