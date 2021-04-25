@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 [RequireComponent(typeof(StoryGraph))]
 public class GameController : MonoBehaviour
@@ -10,6 +11,8 @@ public class GameController : MonoBehaviour
     
     public GameObject graphCamera;
     public GameObject sceneImage;
+    public GameObject menuPanel;
+    public TMP_Text dialogueText;
     
     void Start()
     {
@@ -17,18 +20,44 @@ public class GameController : MonoBehaviour
         graph = GetComponent<StoryGraph>();
         graph.controller = this;
         graph.LoadGraph();
+
+        dialogueText.text = "";
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            menuPanel.SetActive(!menuPanel.activeSelf);
+        }
     }
 
     public void UpdateScene(GameObject nodeObj)
     {
+        NodeBehaviour node = nodeObj.GetComponent<NodeBehaviour>();
+
         // update scene
 
         // update soundtrack
 
+        // update dialogue
+        StartCoroutine(DisplayText(node.info.dialogues, 1f));
+
         // update graph camera
-        //Vector cameraPos = graphCamera.transform.position;
         Vector3 nodePos = nodeObj.transform.position;
         Vector3 cameraPos = graphCamera.transform.position;
         graphCamera.transform.position = new Vector3(nodePos.x, nodePos.y, cameraPos.z);
+    }
+
+    IEnumerator DisplayText(string[] dialogues, float delay)
+    {
+        string allLines = "";
+        foreach (string line in dialogues)
+        {
+            allLines += line + "\n\n";
+            dialogueText.text = allLines;
+            yield return new WaitForSeconds(delay);
+        }
+        yield return null;
     }
 }

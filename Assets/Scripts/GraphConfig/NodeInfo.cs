@@ -7,4 +7,5 @@ public class NodeInfo
     public int id;
     public string sceneName;
     public string soundTrackName;
+    public string[] dialogues;
 }
