@@ -1,0 +1,20 @@
+{
+	"connections": [
+		{
+			"source": 1,
+			"destination": 2
+		},
+		{
+			"source": 1,
+			"destination": 3
+		},
+		{
+			"source": 3,
+			"destination": 4
+		},
+		{
+			"source": 3,
+			"destination": 5
+		}
+	]
+}

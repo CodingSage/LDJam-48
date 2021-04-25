@@ -4,7 +4,7 @@ using UnityEditor;
 [System.Serializable]
 public class NodeInfo
 {
-    public int nodeId;
+    public int id;
     public string sceneName;
     public string soundTrackName;
 }

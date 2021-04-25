@@ -2,22 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(StoryGraph))]
 public class GameController : MonoBehaviour
 {
     private StoryGraph graph;
+    private NodeBehaviour activeNode;
     
-    public Camera graphCamera;
-    public Sprite sceneImage;
+    public GameObject graphCamera;
+    public GameObject sceneImage;
     
     void Start()
     {
         // Load graph
-
-        // Set active node and scene
+        graph = GetComponent<StoryGraph>();
+        graph.controller = this;
+        graph.LoadGraph();
     }
 
-    public void UpdateScene()
+    public void UpdateScene(NodeInfo info)
     {
+        // update scene
 
+        // update soundtrack
     }
 }
