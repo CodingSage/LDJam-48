@@ -2,31 +2,31 @@
 	"nodes": [
 		{
 			"id": 1,
-			"sceneName": "scene 1",
+			"sceneName": "testimage",
 			"soundTrackName": "track 1",
 			"dialogues": ["hi there! this is the intro!", "I'll be back!"]
 		},
 		{
 			"id": 2,
-			"sceneName": "scene 2",
+			"sceneName": "testimage",
 			"soundTrackName": "track 2",
 			"dialogues": ["this is the end!", "you chose the wrong node!"]
 		},
 		{
 			"id": 3,
-			"sceneName": "scene 3",
+			"sceneName": "testimage_next",
 			"soundTrackName": "track 3",
 			"dialogues": ["good choice!", "you can now move forward."]
 		},
 		{
 			"id": 4,
-			"sceneName": "scene 4",
+			"sceneName": "testimage_next_1",
 			"soundTrackName": "track 4",
 			"dialogues": ["this is as far as the demo goes."]
 		},
 		{
 			"id": 5,
-			"sceneName": "scene 5",
+			"sceneName": "testimage_next_2",
 			"soundTrackName": "track 5",
 			"dialogues": ["the end"]
 		}

@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     private NodeBehaviour activeNode;
     
     public GameObject graphCamera;
-    public GameObject sceneImage;
+    public SpriteRenderer sceneSpriteRenderer;
     public GameObject menuPanel;
     public TMP_Text dialogueText;
     
@@ -37,6 +37,9 @@ public class GameController : MonoBehaviour
         NodeBehaviour node = nodeObj.GetComponent<NodeBehaviour>();
 
         // update scene
+        string scenePath = "Images/" + node.info.sceneName;
+        Sprite sceneSprite = Resources.Load<Sprite>(scenePath);
+        sceneSpriteRenderer.sprite = sceneSprite;
 
         // update soundtrack
 
