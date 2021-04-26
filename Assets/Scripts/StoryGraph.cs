@@ -9,6 +9,7 @@ public class StoryGraph : MonoBehaviour
     [HideInInspector] public GameController controller;
 
     public GameObject nodePrefab;
+    public LineRenderer lineRenderer;
     public TextAsset nodeInfosText;
     public TextAsset nodeConnectionsText;
 
@@ -17,6 +18,12 @@ public class StoryGraph : MonoBehaviour
 
     private Dictionary<int, GameObject> nodeMap = new Dictionary<int, GameObject>();
     private Dictionary<int, List<int>> nodeConnections = new Dictionary<int, List<int>>();
+
+    private void Awake()
+    {
+        lineRenderer.startWidth = 0.5f;
+        lineRenderer.endWidth = 0.5f;
+    }
 
     public void LoadGraph()
     {
@@ -100,8 +107,17 @@ public class StoryGraph : MonoBehaviour
             Vector3 childPos = new Vector3(curPos.x  + nodeDistanceX, nodePosY[i], curPos.z);
             childObject.transform.position = childPos;
         }
-
+        AddLine(updatedNode.transform.position);
         currentNode = updatedNode;
+    }
+
+    private void AddLine(Vector3 destination)
+    {
+        Vector3[] allPos = new Vector3[lineRenderer.positionCount + 1];
+        lineRenderer.GetPositions(allPos);
+        allPos[lineRenderer.positionCount] = destination;
+        lineRenderer.positionCount = allPos.Length;
+        lineRenderer.SetPositions(allPos);
     }
 
     private float[] GetNodePositionsY(float yPos, int totalPoints)
@@ -114,7 +130,7 @@ public class StoryGraph : MonoBehaviour
         }
         if (totalPoints % 2 != 0) 
         {
-            res[totalPoints/2+1] = yPos;
+            res[totalPoints/2] = yPos;
         }
         
         return res;
