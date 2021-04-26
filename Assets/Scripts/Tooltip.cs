@@ -29,7 +29,7 @@ public class Tooltip : MonoBehaviour
         gameObject.SetActive(true);
         tooltipText.text = text;
         float padding = 0.4f;
-        background.sizeDelta = new Vector2(tooltipText.preferredWidth + padding * 2, tooltipText.preferredHeight + padding * 2);
+        background.sizeDelta = new Vector2(tooltipText.preferredWidth + padding * 2, tooltipText.preferredHeight);
         tooltipText.rectTransform.sizeDelta = new Vector2(tooltipText.preferredWidth, tooltipText.preferredHeight);
     }
 
