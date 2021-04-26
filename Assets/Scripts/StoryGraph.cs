@@ -19,12 +19,6 @@ public class StoryGraph : MonoBehaviour
     private Dictionary<int, GameObject> nodeMap = new Dictionary<int, GameObject>();
     private Dictionary<int, List<int>> nodeConnections = new Dictionary<int, List<int>>();
 
-    private void Awake()
-    {
-        lineRenderer.startWidth = 0.5f;
-        lineRenderer.endWidth = 0.5f;
-    }
-
     public void LoadGraph()
     {
         NodeInfos nodeInfos = JsonUtility.FromJson<NodeInfos>(nodeInfosText.text);
