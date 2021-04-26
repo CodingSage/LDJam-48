@@ -28,9 +28,9 @@ public class Tooltip : MonoBehaviour
     {
         gameObject.SetActive(true);
         tooltipText.text = text;
-        float padding = 0.4f;
-        background.sizeDelta = new Vector2(tooltipText.preferredWidth + padding * 2, tooltipText.preferredHeight);
-        tooltipText.rectTransform.sizeDelta = new Vector2(tooltipText.preferredWidth, tooltipText.preferredHeight);
+        float padding = 0.5f;
+        background.sizeDelta = new Vector2(tooltipText.rectTransform.sizeDelta.x, tooltipText.rectTransform.sizeDelta.y);
+        /* tooltipText.rectTransform.sizeDelta = new Vector2(tooltipText.preferredWidth, tooltipText.preferredHeight); */
     }
 
     private void HideTooltip()

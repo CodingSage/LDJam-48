@@ -17,10 +17,12 @@ public class NodeBehaviour : MonoBehaviour
     private void OnMouseEnter()
     {
         Tooltip.Show(info.dialogues[0]);
+        gameObject.GetComponent<SpriteRenderer>().color = Color.black;
     }
 
     private void OnMouseExit()
     {
         Tooltip.Hide();
+        gameObject.GetComponent<SpriteRenderer>().color = Color.white;
     }
 }
