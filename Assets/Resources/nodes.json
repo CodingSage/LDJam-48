@@ -2,33 +2,129 @@
 	"nodes": [
 		{
 			"id": 1,
-			"sceneName": "testimage",
+			"sceneName": "guard",
 			"soundTrackName": "beats",
-			"dialogues": ["hi there! this is the intro!", "I'll be back!"]
+			"dialogues": ["...", "Guard: Hey you! Stop! Get over here! Who are you?"]
+		},
+		{
+			"id": 20,
+			"sceneName": "guard",
+			"soundTrackName": "beats",
+			"dialogues": ["I'm your father", "Guard: Hey! Who are you making fun of!? You're not getting in."]
 		},
 		{
 			"id": 2,
-			"sceneName": "testimage",
+			"sceneName": "guard",
 			"soundTrackName": "piano",
-			"dialogues": ["this is the end!", "you chose the wrong node!"]
+			"dialogues": ["I'm Mario's brother", "Guard: Anyway, I need to write down who comes and goes. Can I see your identification?"]
 		},
 		{
 			"id": 3,
-			"sceneName": "testimage_next",
+			"sceneName": "guard",
 			"soundTrackName": "beats",
-			"dialogues": ["good choice!", "you can now move forward."]
+			"dialogues": ["I'm sorry, I'm just here to meet a friend", "Guard: Anyway, I need to write down who comes and goes. Can I see your identification?"]
 		},
 		{
 			"id": 4,
-			"sceneName": "testimage_next_1",
+			"sceneName": "guard",
 			"soundTrackName": "piano",
-			"dialogues": ["this is as far as the demo goes."]
+			"dialogues": ["Do you know who you're talking to!?", "Guard: But... I need to write down who comes and goes. Can I see your identification?"]
 		},
 		{
 			"id": 5,
-			"sceneName": "testimage_next_2",
+			"sceneName": "guard",
 			"soundTrackName": "piano",
-			"dialogues": ["the end"]
+			"dialogues": ["Can I just go? I'll only be 5 minutes", "Guard: ... Fine"]
+		},
+		{
+			"id": 6,
+			"sceneName": "guard",
+			"soundTrackName": "piano",
+			"dialogues": ["Look, it’s kind of late, just write down my name, Luigi", "Guard: ... Fine"]
+		},
+		{
+			"id": 7,
+			"sceneName": "guard",
+			"soundTrackName": "piano",
+			"dialogues": ["I’ll need your identification too when i’m firing you!", "Guard: I'm sorry sir, please go on."]
+		},
+		{
+			"id": 8,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["Desk Girl: Hi handsome! Can i help you? You seem lost in this big building… Where are you trying to go?"]
+		},
+		{
+			"id": 9,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["Desk Girl: Hi handsome! Can i help you? You seem lost in this big building… Where are you trying to go?"]
+		},
+		{
+			"id": 10,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["Desk Girl: Hi handsome! Can i help you? You seem lost in this big building… Where are you trying to go?"]
+		},
+		{
+			"id": 11,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["I was hoping to use the bathroom", "Desk Girl: I think I recognize you... Have we met before, sweetie?"]
+		},
+		{
+			"id": 12,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["Can you point me to the stairs? I feel like working my legs a little. I’m meeting my friend", "Desk Girl: I think I recognize you... Have we met before, sweetie?"]
+		},
+		{
+			"id": 13,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["I have an appointment with Mr. Mario", "Desk Girl: I think I recognize you... Have we met before, sweetie?"]
+		},
+		{
+			"id": 14,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["I’m meeting my brother upstairs. Level 4, which way?", "Desk Girl: I think I recognize you... Have we met before, sweetie?"]
+		},
+		{
+			"id": 15,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["Unless you want to go somewhere with me, I’m just looking to get to level 4", "Desk Girl: I think I recognize you... Have we met before, sweetie?"]
+		},
+		{
+			"id": 16,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["I just really need to use the bathroom… I’ll find it on my own, thanks."]
+		},
+		{
+			"id": 17,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["I think you’re mistaken. I know my way, thank you.", "No wait! I do know you! I think you used to work here! Let me take you where you're headed... don't worry, I insist."]
+		},
+		{
+			"id": 18,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["Could be, I’m usually by the bar down the street... [Walk away]", "Oh, might be! Good luck on your way to the offices"]
+		},
+		{
+			"id": 19,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["I don’t have time for this doll [Move to the stairs]", "Well, he was cute..."]
+		},
+		{
+			"id": 21,
+			"sceneName": "deskgirl",
+			"soundTrackName": "piano",
+			"dialogues": ["I don’t have time for this doll [Move to the stairs]", "Well, he was cute..."]
 		}
 	]
 }
