@@ -13,4 +13,14 @@ public class NodeBehaviour : MonoBehaviour
         if (visited) return;
         graph.UpdateState(gameObject);
     }
+
+    private void OnMouseEnter()
+    {
+        Tooltip.Show(info.dialogues[0]);
+    }
+
+    private void OnMouseExit()
+    {
+        Tooltip.Hide();
+    }
 }
