@@ -18,11 +18,13 @@ public class NodeBehaviour : MonoBehaviour
     {
         Tooltip.Show(info.dialogues[0]);
         gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+        UnityEngine.Cursor.visible = false;
     }
 
     private void OnMouseExit()
     {
         Tooltip.Hide();
         gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+        UnityEngine.Cursor.visible = true;
     }
 }
