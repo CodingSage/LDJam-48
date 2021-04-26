@@ -71,13 +71,19 @@ public class StoryGraph : MonoBehaviour
             return;
         }
 
-        controller.UpdateScene(updatedNode);
-        NodeBehaviour updatedNodeBehaviour = updatedNode.GetComponent<NodeBehaviour>();
-        if (updatedNodeBehaviour.visited)
+        if (currentNode != null)
         {
-            return;
+            NodeBehaviour currentInfo = currentNode.GetComponent<NodeBehaviour>();
+            List<int> currentOptionIds = nodeConnections.ContainsKey(currentInfo.info.id) ? 
+                nodeConnections[currentInfo.info.id] : new List<int>();
+            foreach (int ndId in currentOptionIds)
+            {
+                nodeMap[ndId].SetActive(false);
+            }
         }
 
+        controller.UpdateScene(updatedNode);
+        NodeBehaviour updatedNodeBehaviour = updatedNode.GetComponent<NodeBehaviour>();
         updatedNode.SetActive(true);
         updatedNodeBehaviour.visited = true;
         Vector3 curPos = updatedNode.transform.position;

@@ -10,6 +10,7 @@ public class NodeBehaviour : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (visited) return;
         graph.UpdateState(gameObject);
     }
 }

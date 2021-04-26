@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 [RequireComponent(typeof(StoryGraph))]
@@ -72,5 +73,10 @@ public class GameController : MonoBehaviour
             yield return new WaitForSeconds(delay);
         }
         yield return null;
+    }
+
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
