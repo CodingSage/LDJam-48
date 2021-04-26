@@ -3,31 +3,31 @@
 		{
 			"id": 1,
 			"sceneName": "testimage",
-			"soundTrackName": "track 1",
+			"soundTrackName": "beats",
 			"dialogues": ["hi there! this is the intro!", "I'll be back!"]
 		},
 		{
 			"id": 2,
 			"sceneName": "testimage",
-			"soundTrackName": "track 2",
+			"soundTrackName": "piano",
 			"dialogues": ["this is the end!", "you chose the wrong node!"]
 		},
 		{
 			"id": 3,
 			"sceneName": "testimage_next",
-			"soundTrackName": "track 3",
+			"soundTrackName": "beats",
 			"dialogues": ["good choice!", "you can now move forward."]
 		},
 		{
 			"id": 4,
 			"sceneName": "testimage_next_1",
-			"soundTrackName": "track 4",
+			"soundTrackName": "piano",
 			"dialogues": ["this is as far as the demo goes."]
 		},
 		{
 			"id": 5,
 			"sceneName": "testimage_next_2",
-			"soundTrackName": "track 5",
+			"soundTrackName": "piano",
 			"dialogues": ["the end"]
 		}
 	]

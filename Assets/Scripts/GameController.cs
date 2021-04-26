@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     
     public GameObject graphCamera;
     public SpriteRenderer sceneSpriteRenderer;
+    public AudioSource audioSource;
     public GameObject menuPanel;
     public TMP_Text dialogueText;
     
@@ -22,6 +23,8 @@ public class GameController : MonoBehaviour
         graph.LoadGraph();
 
         dialogueText.text = "";
+
+        audioSource.Play();
     }
 
     private void Update()
@@ -42,6 +45,13 @@ public class GameController : MonoBehaviour
         sceneSpriteRenderer.sprite = sceneSprite;
 
         // update soundtrack
+        if (audioSource.clip.name != node.info.soundTrackName)
+        {
+            string audioPath = "Sound/" + node.info.soundTrackName;
+            AudioClip audioClip = Resources.Load<AudioClip>(audioPath);
+            audioSource.clip = audioClip;
+            audioSource.Play();
+        }
 
         // update dialogue
         StartCoroutine(DisplayText(node.info.dialogues, 1f));
