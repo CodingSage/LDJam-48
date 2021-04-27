@@ -33,6 +33,7 @@ public class GameController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             menuPanel.SetActive(!menuPanel.activeSelf);
+            dialogueText.enabled = (!menuPanel.activeSelf);
         }
     }
 
