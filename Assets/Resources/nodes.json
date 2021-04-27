@@ -185,96 +185,69 @@
                 "Well, he was cute..."
             ]
         },
-        {
-            "id": 101,
-            "sceneName": "friend",
-            "soundTrackName": "friend",
-            "dialogues": [
-                "...",
-                "Friend: Hey! Where’ve you been? It’s been so long, I’ve been worried sick!"
-            ]
-        },
-        {
-            "id": 102,
-            "sceneName": "friend",
-            "soundTrackName": "friend",
-            "dialogues": [
-                "Oh hi… yeah it’s been long.",
-                "You don’t look too happy to see me."
-            ]
-        },
-        {
-            "id": 103,
-            "sceneName": "friend",
-            "soundTrackName": "friend",
-            "dialogues": [
-                "oh no it’s not like that, I was just on my way to a meeting.",
-                "Friend: Meeting? But you left after that scandal… I thought they fired you!"
-            ]
-        },
-        {
-            "id": 104,
-            "sceneName": "friend",
-            "soundTrackName": "friend",
-            "dialogues": [
-                "...I just came up for a quick chat with the boss.",
-                "Friend: Wait.. why do you want to see the boss? I don’t know what happened between you two but.... Oh no… I won’t let you meet him, you don’t want to do this!"
-            ]
-        },
-        {
-            "id": 105,
-            "sceneName": "friend",
-            "soundTrackName": "friend",
-            "dialogues": [
-                "They’re… Alive and well.",
-                "Friend: Good to hear. By the way, what are you doing these days?"
-            ]
-        },
-        {
-            "id": 106,
-            "sceneName": "friend",
-            "soundTrackName": "friend",
-            "dialogues": [
-                "I’m here with a business proposition for the board. Giving them an offer for old times sake.",
-                "Friend: Wow that’s great! Don’t say anything stupid now.We should hang out sometime."
-            ]
-        },
-        {
-            "id": 107,
-            "sceneName": "friend",
-            "soundTrackName": "friend",
-            "dialogues": [
-                "Hello.",
-                "Friend: It’s nice to see you. Last I heard you’d left the country, and you didn’t return any of our messages. How’re your kids?"
-            ]
-        },
-        {
-            "id": 108,
-            "sceneName": "friend",
-            "soundTrackName": "friend",
-            "dialogues": [
-                "[Rudely] Sorry, do I know you? I think you’re mistaking me for someone else.",
-                "Friend: Oh sorry, but I’m very sure I’ve seen you somewhere before. Do you have an ID?"
-            ]
-        },
-        {
-            "id": 109,
-            "sceneName": "friend",
-            "soundTrackName": "friend",
-            "dialogues": [
-                "I’m a guest of the CEO. Could you please stop bothering me?",
-                "Friend: Oh, my apologies. Have a good day."
-            ]
-        },
-        {
-            "id": 110,
-            "sceneName": "friend",
-            "soundTrackName": "friend",
-            "dialogues": [
-                "I work for the accounting department, I just forgot my badge at the desk",
-                "Friend: I head the accounting department, I’ve never seen you before. Guards!"
-            ]
-        },
+		{
+			"id": 22,
+			"sceneName": "friend",
+			"soundTrackName": "friend",
+			"dialogues": ["You: ...", "Friend: Hey! Where’ve you been? It’s been so long, I’ve been worried sick!"]
+		},
+		{
+			"id": 23,
+			"sceneName": "friend",
+			"soundTrackName": "friend",
+			"dialogues": ["You: Oh hi… yeah it’s been long.", "Friend: You don’t look too happy to see me."]
+		},
+		{
+			"id": 24,
+			"sceneName": "friend",
+			"soundTrackName": "friend",
+			"dialogues": ["You: oh no it’s not like that, I was just on my way to a meeting.", "Friend: Meeting? But you left after that scandal… I thought they fired you!"]
+		},
+		{
+			"id": 25,
+			"sceneName": "friend",
+			"soundTrackName": "piano",
+			"dialogues": ["You: ...I just came up for a quick chat with the boss.", "Friend: Wait.. why do you want to see the boss? I don’t know what happened between you two but.... Oh no… I won’t let you meet him, you don’t want to do this!"]
+		},
+		{
+			"id": 26,
+			"sceneName": "friend",
+			"soundTrackName": "friend",
+			"dialogues": ["You: They’re… Alive and well.", "Friend: Good to hear. By the way, what are you doing these days?"]
+		},
+		{
+			"id": 27,
+			"sceneName": "friend",
+			"soundTrackName": "friend",
+			"dialogues": ["You: I’m here with a business proposition for the board. Giving them an offer for old times sake.", 
+				"Wow that’s great! Don’t say anything stupid now.We should hang out sometime.",
+				"You: You know I won’t. I’m heading there right now.",
+				"Friend: Good luck!"]
+		},
+		{
+			"id": 28,
+			"sceneName": "friend",
+			"soundTrackName": "friend",
+			"dialogues": ["You: Hello.", "Friend: It’s nice to see you. Last I heard you’d left the country, and you didn’t return any of our messages. How’re your kids?"]
+		},
+		{
+			"id": 29,
+			"sceneName": "friend",
+			"soundTrackName": "friend",
+			"dialogues": ["You: [Rudely] Sorry, do I know you? I think you’re mistaking me for someone else.", "Friend: Oh sorry, but I’m very sure I’ve seen you somewhere before. Do you have an ID?"]
+		},
+		{
+			"id": 30,
+			"sceneName": "friend",
+			"soundTrackName": "friend",
+			"dialogues": ["You: I’m a guest of the CEO. Could you please stop bothering me?", "Friend: Oh, my apologies. Have a good day."]
+		},
+		{
+			"id": 31,
+			"sceneName": "friend",
+			"soundTrackName": "friend",
+			"dialogues": ["You: I work for the accounting department, I just forgot my badge at the desk", "Friend: I head the accounting department, I’ve never seen you before. Guards!"]
+		},
         {
             "id": 201,
             "sceneName": "hitman",
