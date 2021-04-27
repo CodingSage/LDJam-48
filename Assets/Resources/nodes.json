@@ -322,7 +322,7 @@
         },
         {
             "id": 301,
-            "sceneName": "boss",
+            "sceneName": "finalboss",
             "soundTrackName": "7",
             "dialogues": [
                 "...",
@@ -331,7 +331,7 @@
         },
         {
             "id": 302,
-            "sceneName": "boss",
+            "sceneName": "finalboss",
             "soundTrackName": "7",
             "dialogues": [
                 "No. You never killed me.",
@@ -340,7 +340,7 @@
         },
         {
             "id": 303,
-            "sceneName": "boss",
+            "sceneName": "finalboss",
             "soundTrackName": "7",
             "dialogues": [
                 "No shadow. It’s me.",

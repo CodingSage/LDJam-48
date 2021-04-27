@@ -211,10 +211,6 @@
 		{
 			"source": 30,
 			"destination": 201
-		},
-		{
-			"source": 31,
-			"destination": 201
 		}
 	]
 }
