@@ -1621,6 +1621,7 @@ MonoBehaviour:
   sceneSpriteRenderer: {fileID: 907932961}
   audioSource: {fileID: 314462902}
   menuPanel: {fileID: 1090155870}
+  tooltip: {fileID: 1670815350}
   dialogueText: {fileID: 1651139871}
 --- !u!114 &1658436587
 MonoBehaviour:
