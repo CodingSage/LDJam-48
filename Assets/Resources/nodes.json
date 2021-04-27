@@ -346,6 +346,14 @@
                 "No shadow. It’s me.",
                 "Boss: The Liar then. You idiot. You poor idiot. Why are you here?"
             ]
+        },
+        {
+            "id": 304,
+            "sceneName": "finalboss",
+            "soundTrackName": "7",
+            "dialogues": [
+                "I'm not here. I'm you, and you're not here.", "Boss: Oh no..."
+            ]
         }
     ]
 }
