@@ -11,7 +11,7 @@
         },
         {
             "id": 20,
-            "sceneName": "guard",
+            "sceneName": "guard1",
             "soundTrackName": "beats",
             "dialogues": [
                 "I'm your father",
@@ -29,7 +29,7 @@
         },
         {
             "id": 3,
-            "sceneName": "guard",
+            "sceneName": "guard1",
             "soundTrackName": "beats",
             "dialogues": [
                 "I'm sorry, I'm just here to meet a friend",
@@ -47,7 +47,7 @@
         },
         {
             "id": 5,
-            "sceneName": "guard",
+            "sceneName": "guard1",
             "soundTrackName": "piano",
             "dialogues": [
                 "Can I just go? I'll only be 5 minutes",
@@ -65,7 +65,7 @@
         },
         {
             "id": 7,
-            "sceneName": "guard",
+            "sceneName": "guard1",
             "soundTrackName": "piano",
             "dialogues": [
                 "I’ll need your identification too when i’m firing you!",
@@ -90,7 +90,7 @@
         },
         {
             "id": 10,
-            "sceneName": "deskgirl",
+            "sceneName": "deskgirl1",
             "soundTrackName": "piano",
             "dialogues": [
                 "Desk Girl: Hi handsome! Can i help you? You seem lost in this big building… Where are you trying to go?"
@@ -125,7 +125,7 @@
         },
         {
             "id": 14,
-            "sceneName": "deskgirl",
+            "sceneName": "deskgirl1",
             "soundTrackName": "piano",
             "dialogues": [
                 "I’m meeting my brother upstairs. Level 4, which way?",
@@ -134,7 +134,7 @@
         },
         {
             "id": 15,
-            "sceneName": "deskgirl",
+            "sceneName": "deskgirl1",
             "soundTrackName": "piano",
             "dialogues": [
                 "Unless you want to go somewhere with me, I’m just looking to get to level 4",
@@ -178,7 +178,7 @@
         },
         {
             "id": 21,
-            "sceneName": "deskgirl",
+            "sceneName": "deskgirl1",
             "soundTrackName": "piano",
             "dialogues": [
                 "I don’t have time for this doll [Move to the stairs]",
@@ -193,7 +193,7 @@
 		},
 		{
 			"id": 23,
-			"sceneName": "friend",
+			"sceneName": "friend1",
 			"soundTrackName": "friend",
 			"dialogues": ["You: Oh hi… yeah it’s been long.", "Friend: You don’t look too happy to see me."]
 		},
@@ -217,7 +217,7 @@
 		},
 		{
 			"id": 27,
-			"sceneName": "friend",
+			"sceneName": "friend1",
 			"soundTrackName": "friend",
 			"dialogues": ["You: I’m here with a business proposition for the board. Giving them an offer for old times sake.", 
 				"Wow that’s great! Don’t say anything stupid now.We should hang out sometime.",
@@ -232,7 +232,7 @@
 		},
 		{
 			"id": 29,
-			"sceneName": "friend",
+			"sceneName": "friend1",
 			"soundTrackName": "friend",
 			"dialogues": ["You: [Rudely] Sorry, do I know you? I think you’re mistaking me for someone else.", "Friend: Oh sorry, but I’m very sure I’ve seen you somewhere before. Do you have an ID?"]
 		},
@@ -259,7 +259,7 @@
         },
         {
             "id": 202,
-            "sceneName": "hitman",
+            "sceneName": "hitman1",
             "soundTrackName": "hitman",
             "dialogues": [
                 "No, I’m afraid not.",
@@ -286,7 +286,7 @@
         },
         {
             "id": 205,
-            "sceneName": "hitman",
+            "sceneName": "hitman1",
             "soundTrackName": "hitman",
             "dialogues": [
                 "...",
@@ -304,7 +304,7 @@
         },
         {
             "id": 207,
-            "sceneName": "hitman",
+            "sceneName": "hitman1",
             "soundTrackName": "hitman",
             "dialogues": [
                 "...",
