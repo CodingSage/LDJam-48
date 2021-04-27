@@ -46,7 +46,7 @@ public class GameController : MonoBehaviour
         sceneSpriteRenderer.sprite = sceneSprite;
 
         // update soundtrack
-        if (audioSource.clip.name != node.info.soundTrackName)
+        if (audioSource.clip == null || audioSource.clip.name != node.info.soundTrackName)
         {
             string audioPath = "Sound/" + node.info.soundTrackName;
             AudioClip audioClip = Resources.Load<AudioClip>(audioPath);

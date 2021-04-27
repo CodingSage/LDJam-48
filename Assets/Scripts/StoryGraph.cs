@@ -52,7 +52,12 @@ public class StoryGraph : MonoBehaviour
          allNodes.ExceptWith(destinationNodes);
         if (allNodes.Count != 1)
         {
-            throw new MissingComponentException("Incorrect graph configuration, incorrect source node count : " + allNodes.Count);
+            string error = "";
+            foreach (int nd in allNodes)
+            {
+                error += nd + ", ";
+            }
+            throw new MissingComponentException("Incorrect graph configuration, incorrect source node count : " + allNodes.Count + " - " + error);
         }
 
         int sourceId = new List<int>(allNodes)[0];
